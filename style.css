@@ -1,0 +1,36 @@
+.menu {
+    width: 100px;
+   
+    height: 60px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 130px;
+    margin-top: 3px;
+    font-size: 30px;
+
+}
+
+.aa {
+    text-align: center;
+    color: azure;
+
+}
+
+.bb {
+    color: rgba(22, 20, 192, 0.805);
+}
+
+.cc {
+    color: rgb(24, 207, 207);
+    margin-left: 2%;
+    text-size-adjust: initial;
+}
