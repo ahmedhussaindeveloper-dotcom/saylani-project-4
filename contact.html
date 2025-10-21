@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .menu {
+        width: 100px;
+
+        height: 60px;
+    }
+
+    ul {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        list-style: none;
+        margin-left: 130px;
+        margin-top: 3px;
+        font-size: 30px;
+
+    }
+</style>
+
+<body background="/pics/last.jpg">
+    <div class="menu">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog/blog.html">Blog</a></li>
+            <li><a href="/about/about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <h2 style="text-align: center;">Contact Me</h2>
+    <p>
+        First Name:
+        <input type="text" placeholder="Enter Your First Name">
+    </p>
+    <p>
+        Last Name:
+        <input type="text" placeholder="Enter Your Last Name">
+    </p>
+    <p>
+        Email:
+        <input type="text" placeholder="Enter Your email">
+    </p>
+    <p>
+        Password:
+        <input type="text" placeholder="Enter Your password">
+    </p>
+
+    <p>
+        Gender:
+        <br>
+        <input type="radio" name="gender" checked="checked" />Male
+        <input type="radio" name="gender" checked="checked" />Female
+        <input type="radio" name="gender" checked="checked" />Custom
+    </p>
+
+    <button>Submit</button>
+</body>
+
+</html>
